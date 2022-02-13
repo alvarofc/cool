@@ -1,13 +1,13 @@
 {
-  "name": "create-dapp-solana-nextjs",
+  "name": "cool web",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "make-q": "node ./build.js",
     "dev": "next dev",
-    "build": "yarn run make-q && next build",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export" : "next export"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
