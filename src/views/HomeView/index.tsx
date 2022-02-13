@@ -3,7 +3,7 @@ import { FC } from "react";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
-import { SolanaLogo } from "components";
+import { SolanaLogo } from "../../components";
 import styles from "./index.module.css";
 
 export const HomeView: FC = ({}) => {
@@ -41,7 +41,7 @@ export const HomeView: FC = ({}) => {
                   Daisy UI.
                 </p>
                 <p className="mb-5">
-                  Sollana wallet adapter is connected and ready to use.
+                  Solana wallet adapter is connected and ready to use.
                 </p>
                 <p>
                   {publicKey ? <>Your address: {publicKey.toBase58()}</> : null}
