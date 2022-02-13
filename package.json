@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "make-q": "node ./build.js",
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn run make-q && next build",
     "start": "next start",
     "lint": "next lint"
   },
